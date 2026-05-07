@@ -1,7 +1,14 @@
 # On the Sample Efficiency of Inverse Dynamics Models for Semi-Supervised Imitation Learning
 **ICML 2026** 
+
 *By Sacha Morin, Moonsub Byeon, Alexia Jolicoeur-Martineau, Sébastien Lachapelle*
+
 Paper: https://arxiv.org/abs/2602.02762
+
+This repo contains only the maze experiments. The code for the ProcGen and PushT/Libero experiments are also available:
+
+ProcGen: TODO
+PushT/Libero: TODO
 
 ## Installation
 We recommend a conda environment based on python 3.8.2:
