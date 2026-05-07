@@ -65,7 +65,7 @@ source scripts/launch_stoch_env.sh
 ```
 python plot_final.py
 ```
-The figures with appear in the `./exp` folders, next to the files produced by experiments.
+The figures will appear in the `./exp` folders, next to the files produced by experiments.
 
 ## Reference
 ```
