@@ -5,7 +5,7 @@
 
 Paper: https://arxiv.org/abs/2602.02762
 
-This repo contains only the maze experiments. The code for the ProcGen and PushT/Libero experiments are also available:
+This repo contains only the maze experiments. The code for the ProcGen and PushT/Libero experiments are also available on different repos:
 
 - ProcGen: TODO
 - PushT/Libero: TODO
