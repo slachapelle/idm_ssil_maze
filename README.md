@@ -15,6 +15,7 @@ We recommend a conda environment based on python 3.8.2:
 ```
 conda create -n idm_ssil_maze python=3.8.2
 conda activate idm_ssil_maze
+cd your/repositories/path/idm_ssil_maze
 pip install -r requirements.txt
 ```
 The code expects the directories `./exp` and `./data`.
@@ -26,6 +27,19 @@ The maze trajectories and optimal policies are generated using `mazelab` (packag
 python generate_data.py
 ```
 This should create folders for different maze sizes in `./data`.
+
+Alternatively, you can download the data here: https://github.com/slachapelle/idm_ssil_maze/releases/download/data/maze_data.zip . Unzip doing
+```
+unzip maze_data.zip -d .
+```
+The structure should look like
+```
+idm_ssil_maze
+└── data
+    ├── data_10x10
+    ├── data_20x20
+    └── data_50x50
+```
 
 ## Running experiments
 Everything will be saved under `./exp`
