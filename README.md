@@ -1,6 +1,7 @@
 # On the Sample Efficiency of Inverse Dynamics Models for Semi-Supervised Imitation Learning
-ICML 2026
-Authors:Sacha Morin, Moonsub Byeon, Alexia Jolicoeur-Martineau, Sébastien Lachapelle
+**ICML 2026** 
+*By Sacha Morin, Moonsub Byeon, Alexia Jolicoeur-Martineau, Sébastien Lachapelle*
+Paper: https://arxiv.org/abs/2602.02762
 
 ## Installation
 We recommend a conda environment based on python 3.8.2:
