@@ -17,6 +17,8 @@ conda create -n idm_ssil_maze python=3.8.2
 conda activate idm_ssil_maze
 pip install -r requirements.txt
 ```
+The code expects the directories `./exp` and `./data`.
+
 ## Data
 The maze trajectories and optimal policies are generated using `mazelab` (package taken from https://github.com/zuoxingdong/mazelab/). You can generate the necessary data yourself using:
 
@@ -49,7 +51,7 @@ source scripts/launch_stoch_env.sh
 ```
 python plot_final.py
 ```
-
+The figures with appear in the `./exp` folders, next to the files produced by experiments.
 
 ## Reference
 ```
