@@ -45,6 +45,11 @@ source scripts/launch_stoch_expert.sh
 ```
 source scripts/launch_stoch_env.sh
 ```
+## Producing figures
+```
+python plot_final.py
+```
+
 
 ## Reference
 ```
